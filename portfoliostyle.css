@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+}
+
+/*Landing Page*/
+
+body {
+    display: flex;
+    height: 100vh;  
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Fira Code', monospace;
+}
+
+
+
+h1, a, p {
+    display: block;
+    width: 90%;
+    margin: auto;   
+    text-align: center;
+}
+
+.linkcontainer {
+    border: 2px solid white;
+    height: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;    
+    margin-top: 10px;
+    width: 200px;
+}
+
+.linkcontainer > a:hover {
+    font-size: 18px; 
+    
+}
+
+/*About Me*/
+
+code {
+    font-size: 25px;
+}
+
+
+/*Projects*/
+
+.projectcontainer {
+    width: 300px;
+    height: 250px;
+    /*border: 2px solid red;*/
+    position: relative;
+    display: block;
+    margin: auto;
+}
+
+.projectcontainer > img {
+    width: 100%;
+    opacity: 1;
+    transition: .5s ease;
+}
+
+.projectcontainer:hover img {
+    opacity: 0.3;
+}
+
+.projectbuttons {
+    opacity: 0;
+    transition: .5s ease;
+    position: absolute;
+    display: block;
+    padding-bottom: 8px;   
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    border: 2px solid lightcoral;
+    background-color: lightgreen;
+
+}
+
+.projectcontainer:hover .projectbuttons {
+    opacity: 1;
+}
+
+
+.projectbuttons > a {
+    width: 100px;
+    height: 50px;
+    border: 2px solid black;
+    display: inline-block;
+    background-color: lightcoral;   
+}
+
+.projectbuttons > a:hover {
+    background-color: aquamarine;
+    border: 2px solid green;
+}
+
+.projectdescription {
+    margin-top: 10px;
+}
+
+.projectdescriptiontwo{
+    margin-top: -40px;
+}
+.buttoncontainer {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    border: 2px solid black;
+}
+
+
+/*Contact Page*/
+
+.contactscontainer {
+    border: 2px solid white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contactscontainer > a {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+}
+
+
+/*Common Elements*/
+
+.homebutton {
+    width: 90%;
+    height: 150px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
