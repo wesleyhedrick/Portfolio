@@ -10,30 +10,33 @@ function renderAboutMe() {
     $('.aboutme').on('click', function(e){
         e.preventDefault();
         $('body').html(aboutMe);
+        goHome()        
     })
-    goHome()
+
 }
 
 function renderProjects() {
     $('.projects').on('click', function(e){
         e.preventDefault();
         $('body').html(projects);
+        goHome()
+
     })
-    goHome()
 }
 
 function renderContact() {
     $('.contact').on('click', function(e){
         e.preventDefault();
         $('body').html(contactPage);
+        goHome()
+
     })
-    goHome()
 }
 
 function goHome() {
     $('.realhomebutton').on('click', function(e){
         console.log('Is this button working?')
-        $('body').html(landingPage);
+        renderLanding();
     })
 }
 
