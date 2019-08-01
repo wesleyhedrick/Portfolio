@@ -1,8 +1,17 @@
+function renderLanding() {
+    $('body').html(landingPage);
+    renderAboutMe()
+    renderProjects()
+    renderContact()
+}
+
+
 function renderAboutMe() {
     $('.aboutme').on('click', function(e){
         e.preventDefault();
         $('body').html(aboutMe);
     })
+    goHome()
 }
 
 function renderProjects() {
@@ -10,6 +19,7 @@ function renderProjects() {
         e.preventDefault();
         $('body').html(projects);
     })
+    goHome()
 }
 
 function renderContact() {
@@ -17,6 +27,7 @@ function renderContact() {
         e.preventDefault();
         $('body').html(contactPage);
     })
+    goHome()
 }
 
 function goHome() {
@@ -26,7 +37,4 @@ function goHome() {
     })
 }
 
-$(renderAboutMe);
-$(renderProjects);
-$(renderContact);
-$(goHome);
+$(renderLanding);
