@@ -15,12 +15,12 @@ function renderAboutMe() {
 
 }
 
+
 function renderProjects() {
     $('.projects').on('click', function(e){
         e.preventDefault();
         $('body').html(projects);
         goHome()
-
     })
 }
 
