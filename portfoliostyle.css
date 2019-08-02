@@ -195,6 +195,7 @@ button {
 }
 
 @media screen and (min-width: 376px) {
+    /*Landing Page*/
     .landingContainer {
         width: 50%;
         height: 50%; 
@@ -216,6 +217,7 @@ button {
         align-items: center; 
     }
 
+    /*Common Elements*/
     .homebutton {
         margin-top: 20px; 
         margin-left: auto;
@@ -236,8 +238,10 @@ button {
         justify-content: space-evenly;
     }
 
+    /*Project Page*/
     .projectPageContainer {
         margin-top: 20px;
+        padding-top: 30px;
         width: 50vw;
         padding-left: 20px;
         padding-right: 20px;
