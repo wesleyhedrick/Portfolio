@@ -406,10 +406,8 @@ label {
 
 @media only screen and (max-width: 414px){
     
-    /* stylesheet.css | http://localhost:3000/stylesheet.css */
-    
     nav {
-        /* margin-bottom: 4em; */
+        margin-bottom: 2em;
       }
       
       .nav-buttons {
@@ -420,8 +418,7 @@ label {
       }
       
       .hero-h1 {
-        /* font-size: 4em; */
-        font-size: 3em;
+        font-size: 2.6em;
       }
       
       .card {
@@ -478,15 +475,21 @@ label {
       .contact-header-container {
         display: flex;
         width: 100%;
-        justify-content: flex-start;
+        justify-content: center;
         margin-bottom: 0em;
-      }
-      
+    }
+    .contact-header-container h2 {
+        font-size: 7em;
+    }
       .contact-wrapper {
         flex-direction: column;
         width: 100%;
       }
       
+      .conclusion {
+          margin-top: 0em;
+      }
+
       .conclusion-box {
         width: 100%;
       }
@@ -501,6 +504,9 @@ label {
         font-size: 2em;
       }
       
+      input {
+          font-size: 1.3em;
+      }
       /* Element | http://localhost:3000/?first=Wesley&last=gasfads&email=awefe&message_area=asdfasdfas */
       
       .hero-h1 {
