@@ -406,6 +406,12 @@ label {
 
 @media only screen and (max-width: 414px){
     
+    label {
+        font-size: 2em;
+    }
+    .about-header h2 {
+        font-size: 7em;
+    }
     nav {
         margin-bottom: 2em;
       }
@@ -418,7 +424,7 @@ label {
       }
       
       .hero-h1 {
-        font-size: 2.6em;
+        font-size: 2em;
       }
       
       .card {
@@ -436,7 +442,7 @@ label {
       
       .summary h2 {
         /* font-size: 3em; */
-        font-size: 2.3em;
+        font-size: 1.3em;
       }
       
       .links {
@@ -450,26 +456,25 @@ label {
       .bio-card {
         flex-direction: column;
         align-items: center;
-      }
-      
-      .img-container {
+    }
+    
+    .img-container {
         /* flex: 1; */
         align-items: center;
-      }
-
-      .img-container img {
-          width:100%;
-      }
-      
-      .bio {
+    }
+    
+    .img-container img {
+        width:100%;
+    }
+    
+    .bio {
         align-items: center;
-        tes: ;
         text-align: center;
       }
       
       .bio p {
         /* font-size: 2em; */
-        font-size: 1em;
+        font-size: 0.8em;
       }
       
       .contact-header-container {
@@ -480,72 +485,73 @@ label {
     }
     .contact-header-container h2 {
         font-size: 7em;
+        margin: 0em 0em .1em 0em;
     }
-      .contact-wrapper {
-        flex-direction: column;
-        width: 100%;
-      }
-      
-      .conclusion {
-          margin-top: 0em;
-      }
+    .contact-wrapper {
+    flex-direction: column;
+    width: 100%;
+    }
+    
+    .conclusion {
+        margin-top: 0em;
+    }
 
-      .conclusion-box {
-        width: 100%;
-      }
-      
-      .conclusion p {
-        /* font-size: 2em; */
+    .conclusion-box {
+    width: 100%;
+    }
+    
+    .conclusion p {
+    /* font-size: 2em; */
+    font-size: 1em;
+    }
+    
+    .conclusion h2 {
+    /* font-size: 3em; */
+    font-size: 2em;
+    }
+    
+    input {
         font-size: 1em;
-      }
-      
-      .conclusion h2 {
-        /* font-size: 3em; */
-        font-size: 2em;
-      }
-      
-      input {
-          font-size: 1.3em;
-      }
-      /* Element | http://localhost:3000/?first=Wesley&last=gasfads&email=awefe&message_area=asdfasdfas */
-      
-      .hero-h1 {
-        text-align: center;
-      }
-      
-      /* Element | http://localhost:3000/?first=Wesley&last=gasfads&email=awefe&message_area=asdfasdfas */
-      
-      .card-container {
-        padding: 0;
-      }
-      
-      /* Element | http://localhost:3000/?first=Wesley&last=gasfads&email=awefe&message_area=asdfasdfas */
-      
-      div.card:nth-child(3) > div:nth-child(2) > h2:nth-child(1) {
-        text-align: center;
-      }
-      
-      /* Element | http://localhost:3000/?first=Wesley&last=gasfads&email=awefe&message_area=asdfasdfas */
-      
-      div.card:nth-child(4) > div:nth-child(2) > h2:nth-child(1) {
-        text-align: center;
-      }
-      
-      /* Element | http://localhost:3000/?first=Wesley&last=gasfads&email=awefe&message_area=asdfasdfas */
-      
-      .conclusion-box {
-        text-align: center;
-      }
-      
-      /* Element | http://localhost:3000/?first=Wesley&last=gasfads&email=awefe&message_area=asdfasdfas */
-      
-      #contact {
-        height: auto;
-      }
-  
-      textarea {
-        height:15em
-      }
+    }
+    /* Element | http://localhost:3000/?first=Wesley&last=gasfads&email=awefe&message_area=asdfasdfas */
+    
+    .hero-h1 {
+    text-align: center;
+    }
+    
+    /* Element | http://localhost:3000/?first=Wesley&last=gasfads&email=awefe&message_area=asdfasdfas */
+    
+    .card-container {
+    padding: 0;
+    }
+    
+    /* Element | http://localhost:3000/?first=Wesley&last=gasfads&email=awefe&message_area=asdfasdfas */
+    
+    div.card:nth-child(3) > div:nth-child(2) > h2:nth-child(1) {
+    text-align: center;
+    }
+    
+    /* Element | http://localhost:3000/?first=Wesley&last=gasfads&email=awefe&message_area=asdfasdfas */
+    
+    div.card:nth-child(4) > div:nth-child(2) > h2:nth-child(1) {
+    text-align: center;
+    }
+    
+    /* Element | http://localhost:3000/?first=Wesley&last=gasfads&email=awefe&message_area=asdfasdfas */
+    
+    .conclusion-box {
+    text-align: center;
+    }
+    
+    /* Element | http://localhost:3000/?first=Wesley&last=gasfads&email=awefe&message_area=asdfasdfas */
+    
+    #contact {
+    height: auto;
+    }
+
+    textarea {
+    height:10em
+    }
 }
 
 
