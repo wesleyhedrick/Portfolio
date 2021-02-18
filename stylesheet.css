@@ -1,0 +1,546 @@
+* {
+    font-family: Bebas Neue;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+
+}
+.home, .about, .contact {
+    height: 100vh;
+}
+.home {
+    background: #EE6C4D;
+    color: #E5FAFC;
+    padding: 1em;
+}
+
+.nav-work, .nav-about, .nav-contact {
+    opacity: 0.4;
+    font-size: 2.5em;;
+
+}
+.nav-work:hover, .nav-about:hover, .nav-contact:hover {
+    cursor: pointer
+}
+
+.home>h1 {
+    opacity: 0.4;
+}
+
+.logo-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+.hero-logo {
+    color: #6188BA;
+    font-size: 4em;
+    margin-top: 0.1em;
+}
+
+.hero-h1 {
+    font-size: 4em;
+    margin-top: 0.5em;
+}
+.logo-border {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #6188BA;
+    width: 2.2em;
+    height: 2.2em;
+}
+
+.logo-box {
+    border: .5em solid #6188BA;
+    width: 5em;
+    height: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 4em;
+
+}
+
+.nav-buttons {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+}
+
+.card-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top:-1em;
+}
+
+.card {
+    display: flex;
+    width: 80%;
+    margin: 1em;
+
+}
+
+
+
+.img-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.img-container img {
+    width: 100%;
+}
+
+.work {
+    background: #6188BA;
+    padding: 1em;
+}
+
+.work>* {
+    color: #E5Fafc; 
+    opacity: 0.7;
+}
+
+.work-header {
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.work-header h2 {
+    color: #E5FAFC;
+    font-size: 9em;
+    opacity: 0.7;
+    margin: 0;
+    
+}
+
+.summary {
+    flex: 1;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+.summary p {
+        margin-bottom: 1em;
+}
+.summary h2 {
+    font-size: 3em;
+    margin-bottom: 0.3em;
+
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.about-header h2 {
+    font-size: 9em;
+    color: #6188BA;
+    z-index: 1;
+    margin:0;
+}
+
+.contact-wrapper {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    height: 100%;
+}
+
+.conclusion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex:1;
+}
+.conclusion-box {
+    width: 50%;
+}
+.conclusion-box>*{
+    margin:0;
+}
+.conclusion p  {
+    font-size: 2em;
+    color: #EE6C4D;
+}
+
+.conclusion h2  {
+    font-size: 3em;
+    color: #EE6C4D;
+}
+.contact {
+    background: #293241;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.bio-card-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.bio-card {
+    width: 80%;
+    display: flex;  
+}
+
+.bio {
+    flex: 1.3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bio-card>.img-container{
+    margin-right: 2em;
+}
+.bio p {
+    font-size: 2em;
+    color: #6188BA;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #E5FAFC
+}
+
+.links {
+    align-self: flex-end;
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-header-container {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    margin-bottom: -5em;
+    overflow: hidden;
+}
+
+.contact-header-container h2{ 
+    font-size: 9em;
+    color: #3D5A80;
+    margin: 0em -0.2em 0em 0em;
+
+}
+
+.form-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 0.7;
+}
+
+.form-wrapper h1 {
+    color: #6188BA
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form button {
+    background: none;
+    border: 1px solid #707070;
+    color: #E5FAFC;
+    opacity: .2;
+    width: 50%;
+    align-self: end;
+    padding: 0.2em;
+    font-size: 2em;
+    margin: .2em;
+}
+
+input {
+    background: #293241;
+    border: none;
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: small;
+    border-bottom: 1px solid #707070;
+    opacity: 0.4;
+    color: #E5FAFC;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+label {
+    color: #E5FAFC;
+    opacity: .2;
+    font-size: 3em;
+}
+textarea {
+    background: #293241;
+    border: 1px solid #707070;
+    opacity: 0.4;
+    color: #707070;
+
+}
+
+
+
+@media only screen and (max-width: 1050px){
+
+/* stylesheet.css | http://localhost:3000/stylesheet.css */
+
+.card {
+    /* width: 80%; */
+    width: 100%;
+    flex-direction: column;
+}
+
+.summary {
+    align-items: center;
+}
+
+.links {
+    /* align-self: flex-end; */
+    /* width: 25%; */
+    width: 50%;
+}
+
+.bio {
+    /* flex: 1.3; */
+    flex: 0.9;
+}
+
+.bio p {
+    /* font-size: 2em; */
+    font-size: 1.5em;
+}
+
+.bio-card {
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-container img {
+    /* width: 100%; */
+    width: 83%;
+}
+
+.img-container {
+    align-items: center;
+}
+
+.bio-card > .img-container {
+    margin-right: 0em;
+}
+
+.contact-wrapper {
+    margin-top: -2em;
+}
+
+.contact-header-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 0em;  
+    overflow:visible;
+}
+input {
+    font-size: 1.8em;
+}
+
+label {
+
+    font-size: 2.5em;
+}
+
+.conclusion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    margin-top: -16em;
+}
+
+.form-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex: 1;
+}
+}
+
+@media only screen and (max-width: 414px){
+    
+    /* stylesheet.css | http://localhost:3000/stylesheet.css */
+    
+    nav {
+        /* margin-bottom: 4em; */
+      }
+      
+      .nav-buttons {
+        /* width: 40%; */
+        /* justify-content: space-between; */
+        width: 100%;
+        justify-content: space-evenly;
+      }
+      
+      .hero-h1 {
+        /* font-size: 4em; */
+        font-size: 3em;
+      }
+      
+      .card {
+        width: 100%;
+        margin: 0em;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .summary {
+        padding: 0em;
+        align-items: center;
+      }
+      
+      .summary h2 {
+        /* font-size: 3em; */
+        font-size: 2.3em;
+      }
+      
+      .links {
+        /* align-self: flex-end; */
+        /* width: 25%; */
+        /* justify-content: space-around; */
+        width: 50%;
+        justify-content: space-evenly;
+      }
+      
+      .bio-card {
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .img-container {
+        /* flex: 1; */
+        align-items: center;
+      }
+
+      .img-container img {
+          width:100%;
+      }
+      
+      .bio {
+        align-items: center;
+        tes: ;
+        text-align: center;
+      }
+      
+      .bio p {
+        /* font-size: 2em; */
+        font-size: 1em;
+      }
+      
+      .contact-header-container {
+        display: flex;
+        width: 100%;
+        justify-content: flex-start;
+        margin-bottom: 0em;
+      }
+      
+      .contact-wrapper {
+        flex-direction: column;
+        width: 100%;
+      }
+      
+      .conclusion-box {
+        width: 100%;
+      }
+      
+      .conclusion p {
+        /* font-size: 2em; */
+        font-size: 1em;
+      }
+      
+      .conclusion h2 {
+        /* font-size: 3em; */
+        font-size: 2em;
+      }
+      
+      /* Element | http://localhost:3000/?first=Wesley&last=gasfads&email=awefe&message_area=asdfasdfas */
+      
+      .hero-h1 {
+        text-align: center;
+      }
+      
+      /* Element | http://localhost:3000/?first=Wesley&last=gasfads&email=awefe&message_area=asdfasdfas */
+      
+      .card-container {
+        padding: 0;
+      }
+      
+      /* Element | http://localhost:3000/?first=Wesley&last=gasfads&email=awefe&message_area=asdfasdfas */
+      
+      div.card:nth-child(3) > div:nth-child(2) > h2:nth-child(1) {
+        text-align: center;
+      }
+      
+      /* Element | http://localhost:3000/?first=Wesley&last=gasfads&email=awefe&message_area=asdfasdfas */
+      
+      div.card:nth-child(4) > div:nth-child(2) > h2:nth-child(1) {
+        text-align: center;
+      }
+      
+      /* Element | http://localhost:3000/?first=Wesley&last=gasfads&email=awefe&message_area=asdfasdfas */
+      
+      .conclusion-box {
+        text-align: center;
+      }
+      
+      /* Element | http://localhost:3000/?first=Wesley&last=gasfads&email=awefe&message_area=asdfasdfas */
+      
+      #contact {
+        height: auto;
+      }
+  
+      textarea {
+        height:15em
+      }
+}
+
+
+  
