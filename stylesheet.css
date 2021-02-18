@@ -368,7 +368,7 @@ textarea {
     .conclusion-box > ul:nth-child(1) > li:nth-child(3) {
         font-size: 3em;
     }
-
+    
     .card {
         /* width: 80%; */
         width: 100%;
@@ -452,6 +452,19 @@ textarea {
 
 @media only screen and (max-width: 414px){
     
+    .conclusion-box > ul:nth-child(1) > li:nth-child(1) {
+        font-size: 1.8em;
+        }
+    
+    .conclusion-box > ul:nth-child(1) > li:nth-child(2) {
+        font-size: 1.8em;
+    }
+    
+    .conclusion-box > ul:nth-child(1) > li:nth-child(3) {
+        font-size: 1.8em;
+    }
+
+
     label {
         font-size: 2em;
     }
@@ -600,6 +613,7 @@ textarea {
     ul {
         display: flex;
         justify-content: space-evenly;
+        flex-direction:row;
         width: 80%;
         padding: 0;
     }
