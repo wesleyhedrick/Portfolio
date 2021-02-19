@@ -340,7 +340,7 @@ textarea {
     background: #293241;
     border: 1px solid #707070;
     opacity: 0.4;
-    color: #707070;
+    color: #E5FAFC;
     height: 17em;
 }
 
@@ -615,6 +615,8 @@ textarea {
     textarea {
         height:10em
     }
+
+
     ul {
         display: flex;
         justify-content: space-evenly;
