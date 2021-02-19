@@ -1,4 +1,4 @@
-* {
+ * {
     font-family: Bebas Neue;
     box-sizing: border-box;
 }
@@ -166,6 +166,7 @@ nav {
 
 .summary p {
     margin-bottom: 1em;
+    font-size: 1.4em
 }
 .summary h2 {
     font-size: 3em;
@@ -348,6 +349,10 @@ textarea {
 @media only screen and (max-width: 1050px){
     
     /* stylesheet.css | http://localhost:3000/stylesheet.css */
+    
+    .summary p{
+        font-size: 1.3em;
+    }
     
     ul {
         display: flex;
@@ -616,6 +621,9 @@ textarea {
         flex-direction:row;
         width: 80%;
         padding: 0;
+    }
+    .summary p {
+        font-size: 0.9em;
     }
 }
 
